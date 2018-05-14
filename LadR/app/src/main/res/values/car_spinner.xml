@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string-array name="car_spinner">
+            <item>Audi A3 Sportback e-tron</item>
+            <item>Audi Q7 e-tron</item>
+            <item>BMW I3 (60 A/h) </item>
+            <item>BMW I3 (94 A/h)</item>
+            <item>BMW I8</item>
+            <item>BMW 225xe plug-in hybrid </item>
+            <item>BMW 330e plug-in hybrid </item>
+            <item>BMW 530e plug-in hybrid</item>
+            <item>BMW 740e plug-in hybrid</item>
+            <item>BMW X5 xDrive40e plug-in hybrid</item>
+            <item>Chevrolet Volt</item>
+            <item>Citroën C-Zero</item>
+            <item>Citroën E-MEHARI</item>
+            <item>Fisker Karma</item>
+            <item>Ford Focus Electric</item>
+            <item>Ford Focus Electric (2017)</item>
+            <item>Ford C-Max</item>
+            <item>KIA Soul EV</item>
+            <item>KIA Optima Plug In Hybrid </item>
+            <item>Hyundai Ioniq PHEV</item>
+            <item>Hyundai IONIQ electric Launch / Plus</item>
+            <item>Mercedes B-Class B 250 e</item>
+            <item>Mercedesv S 500 e L Plug-in Hybrid</item>
+            <item>Mercedes GLC 350e Plug-in Hybrid</item>
+            <item>Mercedes GLE 500e Plug-in Hybrid</item>
+            <item>Mercedes C 350 e Plug-in Hybrid</item>
+            <item>MINI Cooper S E Countryman ALL4</item>
+            <item>Mitsubishi i-Miev</item>
+            <item>Mitsubishi Outlander PHEV</item>
+            <item>Nissan Leaf (24 kWh)</item>
+            <item>Nissan Leaf (30 kWh)</item>
+            <item>Nissan Leaf II ZERO Edition</item>
+            <item>Nissan e-NV200</item>
+            <item>Opel Ampera</item>
+            <item>Opel Ampera e</item>
+            <item>Peugeot iOn</item>
+            <item>Peugeot ePartner</item>
+            <item>Porsche Panamera S E-Hybrid</item>
+            <item>Porsche Panamera 4 E-Hybrid (Executive) </item>
+            <item>Porsche Panamera 4 E-Hybrid Sport Turismo</item>
+            <item>Porsche Panamera Turbo S E-Hybrid (Executive)</item>
+            <item>Porsche Cayenne S E-Hybrid (Platinum Edition)</item>
+            <item>Porsche 918 Spyder </item>
+            <item>Range Rover Sport P400e</item>
+            <item>Renault Fluence Z.E. (Typ 1)</item>
+            <item>Renault Kangoo Z.E. (Typ 1)</item>
+            <item>Renault Kangoo Z.E. (Typ 2)</item>
+            <item>Renault ZOE</item>
+            <item>Renault Zoe Z.E. 40</item>
+            <item>Smart fortwo electric drive</item>
+            <item>Smart fortwo electric drive (22kW)</item>
+            <item>Smart smart electric drive</item>
+            <item>Tesla Model S (Single Charger)</item>
+            <item>Tesla Model S (twin Charger)</item>
+            <item>Tesla New Model S (>2016)</item>
+            <item>Tesla Model X</item>
+            <item>Toyota Prius Plug-in Hybrid</item>
+            <item>Toyota Prius IV Plug-in Hybrid (>2016)</item>
+            <item>Volvo V60 T6 PHEV</item>
+            <item>Volvo XC90 T8 twin engine</item>
+            <item>Volvo XC60 T8 twin engine</item>
+            <item>Volvo V90 T8 twin engine</item>
+            <item>VW e-up</item>
+            <item>VW GTE</item>
+            <item>VW Golf GTE (2017)</item>
+            <item>VW e Golf</item>
+            <item>VW e Golf (>2017)</item>
+            <item>VW Passat GTE</item>
+            <item>VW Passat GTE Variant</item>
+        </string-array>
+</resources>
