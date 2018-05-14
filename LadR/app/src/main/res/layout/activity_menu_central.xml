@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#97446593"
+    android:orientation="vertical"
+    tools:context=".MenuCentral">
+
+
+    <TextView
+        android:id="@+id/activity_menuCentral_textView_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:textColor="#bbffffff"
+        android: android:textSize="25dp"
+        android:text="Provisional central application menu" />
+
+    <Button
+        android:id="@+id/activity_stationConnexion_btn"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="#419EDD"
+        android:padding="20dp"
+        android:text="Station Connexion"
+        android:textColor="#bbffffff" />
+
+    <Button
+        android:id="@+id/activity_personalData_btn"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="#419EDD"
+        android:padding="20dp"
+        android:text="Personnal Data"
+        android:textColor="#bbffffff" />
+</LinearLayout>
