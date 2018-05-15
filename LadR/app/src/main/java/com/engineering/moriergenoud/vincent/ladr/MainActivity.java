@@ -20,6 +20,14 @@ public class MainActivity extends AppCompatActivity {
     private Spinner mCarSpinner;
     private Button mSubmitButton;
 
+    String ExpFirstName;
+    String ExpLastName;
+    String ExpLicence;
+
+
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,7 +57,19 @@ public class MainActivity extends AppCompatActivity {
                 Intent menuCentralIntent = new Intent(MainActivity.this, MenuCentral.class);
                 startActivity(menuCentralIntent);
 
+                ExpFirstName=mFirstNameInput.getText().toString();
+                menuCentralIntent.putExtra("FirstName",ExpFirstName);
+
+                ExpLastName=mLastNameInput.getText().toString();
+                menuCentralIntent.putExtra("LastName",ExpLastName);
+
+                ExpLicence=mLicenceInput.getText().toString();
+                menuCentralIntent.putExtra("Licence",ExpLicence);
+
+                startActivity(menuCentralIntent);
+                finish();
             }
+
         });
     }
 }

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#97446593"
+    android:orientation="vertical"
+    tools:context=".PersonnalDataActivity">
+
+
+    <TextView
+        android:id="@+id/activitiy_info_firstname_txt"
+        android:layout_width="155dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/activitiy_display_firstname_txt"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="14dp"
+        android:fontFamily="serif"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:text="Firstname :"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+
+    <TextView
+        android:id="@+id/activitiy_display_firstname_txt"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginTop="13dp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:text="XXXXX"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/activitiy_info_lastname_txt"
+        android:layout_width="155dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart ="14dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="Lastname :"
+        android:textColor="#ffffff"
+        android:fontFamily="serif"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/activitiy_display_lastname_txt"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:textColor="#ffffff"
+        android:layout_marginEnd="26dp"
+        android:gravity="center"
+        android:text="XXXXX"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/activitiy_info_licence_txt"
+        android:layout_width="155dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:text="Im. Number :"
+        android:fontFamily="serif"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/activitiy_display_lisence_txt"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"
+        android:textColor="#ffffff"
+        android:layout_marginEnd="26dp"
+        android:gravity="center"
+        android:text=" XX XXX XXX"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/activitiy_info_car_model_txt"
+        android:layout_width="155dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="300dp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:text="Car model :"
+        android:fontFamily="serif"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/activitiy_display_car_model_txt"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="300dp"
+        android:textColor="#ffffff"
+        android:layout_marginEnd="26dp"
+        android:gravity="center"
+        android:text="XXXXX"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/activitiy_info_client_txt"
+        android:layout_width="155dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="400dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:text="Client number :"
+        android:fontFamily="serif"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/activitiy_display_client_txt"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:textColor="#ffffff"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="26dp"
+        android:gravity="center"
+        android:text="XXXXXX"
+        android:textSize="20sp" />
+
+
+
+</RelativeLayout>
