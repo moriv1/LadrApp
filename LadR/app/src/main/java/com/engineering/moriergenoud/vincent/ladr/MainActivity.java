@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
     String ExpLastName;
     String ExpLicence;
     String ExpCarModel;
+    String ExpClientNumber;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,11 +60,14 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+        /*Client number Creation*/
+        ExpClientNumber="5005";
+        /*Send client number to Station Connexion Activity*/
+
         mSubmitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-
 
                 // User clicked the button
 
@@ -79,6 +83,8 @@ public class MainActivity extends AppCompatActivity {
 
                 ExpLicence=mLicenceInput.getText().toString();
                 menuCentralIntent.putExtra("Licence",ExpLicence);
+
+                menuCentralIntent.putExtra("ClientNumber",ExpClientNumber);
 
                 menuCentralIntent.putExtra("CarModel",ExpCarModel);
                 startActivity(menuCentralIntent);
