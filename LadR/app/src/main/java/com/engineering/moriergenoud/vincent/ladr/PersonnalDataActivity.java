@@ -15,6 +15,7 @@ public class PersonnalDataActivity extends AppCompatActivity {
     String TransfertFirstName;
     String TransfertLastName;
     String TransfertLiscence;
+    String TransfertCarModel;
 
 
 
@@ -40,6 +41,8 @@ public class PersonnalDataActivity extends AppCompatActivity {
         TransfertLiscence=getIntent().getExtras().getString("Licence2");
         mDisplayLiscence.setText(TransfertLiscence);
 
-    }
+        TransfertCarModel=getIntent().getExtras().getString("CarModel2");
+        mDisplayCarModel.setText(TransfertCarModel);
+        }
 
 }

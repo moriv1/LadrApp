@@ -15,6 +15,7 @@ public class MenuCentral extends AppCompatActivity {
     String TransfertFirstName;
     String TransfertLastName;
     String TransfertLicence;
+    String TransfertCarModel;
 
 
     @Override
@@ -28,7 +29,7 @@ public class MenuCentral extends AppCompatActivity {
         TransfertFirstName=getIntent().getExtras().getString("FirstName");
         TransfertLastName=getIntent().getExtras().getString("LastName");
         TransfertLicence=getIntent().getExtras().getString("Licence");
-
+        TransfertCarModel=getIntent().getExtras().getString("CarModel");
         mStationConnexionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -49,10 +50,8 @@ public class MenuCentral extends AppCompatActivity {
                 personnalDataActivityIntent.putExtra("FirstName2",TransfertFirstName);
                 personnalDataActivityIntent.putExtra("LastName2",TransfertLastName);
                 personnalDataActivityIntent.putExtra("Licence2",TransfertLicence);
+                personnalDataActivityIntent.putExtra("CarModel2",TransfertCarModel);
                 startActivity(personnalDataActivityIntent);
-
-
-
             }
         });
 
