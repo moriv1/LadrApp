@@ -27,11 +27,6 @@ public class MainActivity extends AppCompatActivity {
     String ExpLicence;
     String ExpCarModel;
 
-
-
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
         // Apply the adapter to the spinner
         mCarSpinner.setAdapter(adapter);
         mCarSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 ExpCarModel = parent.getItemAtPosition(position).toString();
@@ -66,6 +62,9 @@ public class MainActivity extends AppCompatActivity {
         mSubmitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+
+
                 // User clicked the button
 
                 // Inscription successful
@@ -83,7 +82,6 @@ public class MainActivity extends AppCompatActivity {
 
                 menuCentralIntent.putExtra("CarModel",ExpCarModel);
                 startActivity(menuCentralIntent);
-                finish();
             }
 
         });
