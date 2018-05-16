@@ -36,11 +36,14 @@ public class StationConnexionActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Toast.makeText(getBaseContext(),"information exchanged \n" +
-                        "      Station activated", Toast.LENGTH_LONG).show();
-                finish();
+                Toast.makeText(getBaseContext(),"search for the station's peripherals ", Toast.LENGTH_LONG).show();
+                setContentView(R.layout.activity_station_connexion_in_progression);
             }
         });
 
         }
 }
+// TO DO FOR THE REVIEW:
+//1.CLEAN AND DESCRIBE THE CODE CONTENANT
+//2.ADD THE ACTUAL HOURS (IN LINKS WITH THE SMARTPHONE CLOCK) ON STATIONCONNEXIONACTIVITY
+//3. ADD THE HOURS OF RESERVATION END TOO (FOR THE MOMENT, NOT IMPORTANT =>ACTUAL HOURS +1)
