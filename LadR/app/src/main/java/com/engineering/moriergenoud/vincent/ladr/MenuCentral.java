@@ -5,12 +5,15 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 
 public class MenuCentral extends AppCompatActivity {
 
     private Button mStationConnexionButton;
     private Button mPersonnalDataButton;
+    private Button mActivationKeyButton;
+    private TextView mDiplayKey;
 
     String TransfertFirstName;
     String TransfertLastName;
@@ -26,6 +29,9 @@ public class MenuCentral extends AppCompatActivity {
 
         mPersonnalDataButton  = (Button) findViewById(R.id.activity_personalData_btn);
         mStationConnexionButton = (Button) findViewById(R.id.activity_stationConnexion_btn);
+        mActivationKeyButton = (Button) findViewById(R.id.activity_activation_key_btn);
+        mDiplayKey = (TextView) findViewById(R.id.activity_menuCentral_key_display_txt);
+
 
         TransfertFirstName=getIntent().getExtras().getString("FirstName");
         TransfertLastName=getIntent().getExtras().getString("LastName");

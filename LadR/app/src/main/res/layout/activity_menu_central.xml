@@ -10,22 +10,19 @@
     tools:context=".MenuCentral">
 
 
-    <TextView
-        android:id="@+id/activity_menuCentral_textView_txt"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:gravity="center"
-        android:textColor="#bbffffff"
-        android:textSize="25sp"
-        android:text="Provisional central application menu" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="138dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/LadR_Logo" />
 
     <Button
         android:id="@+id/activity_stationConnexion_btn"
         android:layout_width="337dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="0dp"
         android:background="#419EDD"
         android:padding="20dp"
         android:text="Station Connexion"
@@ -39,6 +36,27 @@
         android:layout_marginTop="40dp"
         android:background="#419EDD"
         android:padding="20dp"
-        android:text="Personnal Data"
+        android:text="Personal Dara"
         android:textColor="#bbffffff" />
+
+    <Button
+        android:id="@+id/activity_activation_key_btn"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="#419EDD"
+        android:padding="20dp"
+        android:text="Order an activation key"
+        android:textColor="#bbffffff" />
+
+    <TextView
+        android:id="@+id/activity_menuCentral_key_display_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:textColor="#bbffffff"
+        android:textSize="20sp"
+        android:text="Activation Key: Empty" />
 </LinearLayout>
