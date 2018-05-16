@@ -7,14 +7,14 @@
     android:layout_height="match_parent"
     android:background="#97446593"
     android:orientation="vertical"
-    tools:context=".PersonnalDataActivity">
+    tools:context=".PersonalDataActivity">
 
 
     <TextView
-        android:id="@+id/activitiy_info_firstname_txt"
+        android:id="@+id/activity_info_firstname_txt"
         android:layout_width="155dp"
         android:layout_height="40dp"
-        android:layout_alignBottom="@+id/activitiy_display_firstname_txt"
+        android:layout_alignBottom="@+id/activity_display_firstname_txt"
         android:layout_alignParentStart="true"
         android:layout_marginStart="14dp"
         android:fontFamily="serif"
@@ -25,7 +25,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
 
     <TextView
-        android:id="@+id/activitiy_display_firstname_txt"
+        android:id="@+id/activity_display_firstname_txt"
         android:layout_width="200dp"
         android:layout_height="40dp"
         android:layout_alignParentEnd="true"
@@ -38,7 +38,7 @@
         android:textSize="20sp" />
 
     <TextView
-        android:id="@+id/activitiy_info_lastname_txt"
+        android:id="@+id/activity_info_lastname_txt"
         android:layout_width="155dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
@@ -51,7 +51,7 @@
         android:textSize="20sp" />
 
     <TextView
-        android:id="@+id/activitiy_display_lastname_txt"
+        android:id="@+id/activity_display_lastname_txt"
         android:layout_width="200dp"
         android:layout_height="40dp"
         android:layout_alignParentEnd="true"
@@ -64,7 +64,7 @@
         android:textSize="20sp" />
 
     <TextView
-        android:id="@+id/activitiy_info_licence_txt"
+        android:id="@+id/activity_info_licence_txt"
         android:layout_width="155dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
@@ -77,7 +77,7 @@
         android:textSize="20sp" />
 
     <TextView
-        android:id="@+id/activitiy_display_lisence_txt"
+        android:id="@+id/activity_display_lisence_txt"
         android:layout_width="200dp"
         android:layout_height="40dp"
         android:layout_alignParentEnd="true"
@@ -90,7 +90,7 @@
         android:textSize="20sp" />
 
     <TextView
-        android:id="@+id/activitiy_info_car_model_txt"
+        android:id="@+id/activity_info_car_model_txt"
         android:layout_width="155dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
@@ -103,11 +103,11 @@
         android:textSize="20sp" />
 
     <TextView
-        android:id="@+id/activitiy_display_car_model_txt"
+        android:id="@+id/activity_display_car_model_txt"
         android:layout_width="200dp"
         android:layout_height="94dp"
-        android:layout_alignBaseline="@+id/activitiy_info_car_model_txt"
-        android:layout_alignStart="@+id/activitiy_display_firstname_txt"
+        android:layout_alignBaseline="@+id/activity_info_car_model_txt"
+        android:layout_alignStart="@+id/activity_display_firstname_txt"
         android:gravity="center_horizontal"
         android:text="XXXXX"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
@@ -115,7 +115,7 @@
         android:textSize="15sp" />
 
     <TextView
-        android:id="@+id/activitiy_info_client_txt"
+        android:id="@+id/activity_info_client_txt"
         android:layout_width="155dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
@@ -128,7 +128,7 @@
         android:textSize="20sp" />
 
     <TextView
-        android:id="@+id/activitiy_display_client_txt"
+        android:id="@+id/activity_display_client_txt"
         android:layout_width="200dp"
         android:layout_height="40dp"
         android:layout_alignParentEnd="true"

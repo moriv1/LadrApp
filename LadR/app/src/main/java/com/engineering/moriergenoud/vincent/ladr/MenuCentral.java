@@ -12,7 +12,7 @@ import android.widget.Toast;
 public class MenuCentral extends AppCompatActivity {
 
     private Button mStationConnexionButton;
-    private Button mPersonnalDataButton;
+    private Button mPersonalDataButton;
     private Button mActivationKeyButton;
     private TextView mDisplayKey;
 
@@ -30,7 +30,7 @@ public class MenuCentral extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_central);
 
-        mPersonnalDataButton  = (Button) findViewById(R.id.activity_personalData_btn);
+        mPersonalDataButton  = (Button) findViewById(R.id.activity_personalData_btn);
         mStationConnexionButton = (Button) findViewById(R.id.activity_stationConnexion_btn);
         mActivationKeyButton = (Button) findViewById(R.id.activity_activation_key_btn);
         mDisplayKey = (TextView) findViewById(R.id.activity_menuCentral_key_display_txt);
@@ -56,17 +56,17 @@ public class MenuCentral extends AppCompatActivity {
             }
         });
 
-        mPersonnalDataButton.setOnClickListener(new View.OnClickListener() {
+        mPersonalDataButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // User clicked the button
-                Intent personnalDataActivityIntent = new Intent (MenuCentral.this, PersonnalDataActivity.class);
-                personnalDataActivityIntent.putExtra("FirstName2",TransfertFirstName);
-                personnalDataActivityIntent.putExtra("LastName2",TransfertLastName);
-                personnalDataActivityIntent.putExtra("Licence2",TransfertLicence);
-                personnalDataActivityIntent.putExtra("CarModel2",TransfertCarModel);
-                personnalDataActivityIntent.putExtra("ClientNumber2",TransfertClientNumber);
-                startActivity(personnalDataActivityIntent);
+                Intent personalDataActivityIntent = new Intent (MenuCentral.this, PersonalDataActivity.class);
+                personalDataActivityIntent.putExtra("FirstName2",TransfertFirstName);
+                personalDataActivityIntent.putExtra("LastName2",TransfertLastName);
+                personalDataActivityIntent.putExtra("Licence2",TransfertLicence);
+                personalDataActivityIntent.putExtra("CarModel2",TransfertCarModel);
+                personalDataActivityIntent.putExtra("ClientNumber2",TransfertClientNumber);
+                startActivity(personalDataActivityIntent);
             }
         });
 

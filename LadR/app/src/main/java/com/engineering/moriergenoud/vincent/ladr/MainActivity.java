@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 ExpCarModel = parent.getItemAtPosition(position).toString();
-                Toast.makeText(getBaseContext(),parent.getItemAtPosition(position)+" selected", Toast.LENGTH_LONG).show();
+                Toast.makeText(getBaseContext(),parent.getItemAtPosition(position)+" selected", Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -88,6 +88,9 @@ public class MainActivity extends AppCompatActivity {
 
                 menuCentralIntent.putExtra("CarModel",ExpCarModel);
                 startActivity(menuCentralIntent);
+
+                Toast.makeText(getBaseContext(),"      Information recorded \n" +
+                        "Customer number received", Toast.LENGTH_SHORT).show();
             }
 
         });
