@@ -2,7 +2,10 @@ package com.engineering.moriergenoud.vincent.ladr;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class StationConnexionActivity extends AppCompatActivity {
 
@@ -11,6 +14,7 @@ public class StationConnexionActivity extends AppCompatActivity {
 
     private TextView mClientNumber;
     private TextView mClientToStationKey;
+    private Button mStartCommunication;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +23,7 @@ public class StationConnexionActivity extends AppCompatActivity {
 
         mClientNumber = findViewById(R.id.client_number_txt);
         mClientToStationKey = findViewById(R.id.activation_key_txt);
+        mStartCommunication = findViewById(R.id.activity_ClientToStationConnexion_btn);
 
 
         TransfertClientNumber=getIntent().getExtras().getString("ClientNumber2");
@@ -27,7 +32,15 @@ public class StationConnexionActivity extends AppCompatActivity {
         ClientToStationKey = getIntent().getExtras().getString("ClientToStationActivationKey");
         mClientToStationKey.setText(ClientToStationKey);
 
+        mStartCommunication.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
 
+                Toast.makeText(getBaseContext(),"information exchanged \n" +
+                        "      Station activated", Toast.LENGTH_LONG).show();
+                finish();
+            }
+        });
 
         }
 }
