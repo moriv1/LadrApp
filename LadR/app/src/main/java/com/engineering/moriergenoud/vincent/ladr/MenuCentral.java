@@ -11,6 +11,8 @@ import android.widget.Toast;
 
 public class MenuCentral extends AppCompatActivity {
 
+    /*Variables Declaration*/
+
     private Button mStationConnexionButton;
     private Button mPersonalDataButton;
     private Button mActivationKeyButton;
@@ -24,23 +26,29 @@ public class MenuCentral extends AppCompatActivity {
     String  ClientToStationActivationKey="000000000000000";
     String OrderedActivationKey= "165493527916548";
 
+    /*onCreate void*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_central);
 
+        /*link with layout*/
+
         mPersonalDataButton  = (Button) findViewById(R.id.activity_personalData_btn);
         mStationConnexionButton = (Button) findViewById(R.id.activity_stationConnexion_btn);
         mActivationKeyButton = (Button) findViewById(R.id.activity_activation_key_btn);
         mDisplayKey = (TextView) findViewById(R.id.activity_menuCentral_key_display_txt);
 
+        /*Variables transfert*/
 
         TransfertFirstName=getIntent().getExtras().getString("FirstName");
         TransfertLastName=getIntent().getExtras().getString("LastName");
         TransfertLicence=getIntent().getExtras().getString("Licence");
         TransfertCarModel=getIntent().getExtras().getString("CarModel");
         TransfertClientNumber=getIntent().getExtras().getString("ClientNumber");
+
+        /*Button to connect with Station Connection*/
 
         mStationConnexionButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,6 +64,8 @@ public class MenuCentral extends AppCompatActivity {
             }
         });
 
+        /*Button to connect with personal data activities*/
+
         mPersonalDataButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -69,6 +79,8 @@ public class MenuCentral extends AppCompatActivity {
                 startActivity(personalDataActivityIntent);
             }
         });
+
+        /*Button to order an activation key*/
 
         mActivationKeyButton.setOnClickListener(new View.OnClickListener() {
             @Override

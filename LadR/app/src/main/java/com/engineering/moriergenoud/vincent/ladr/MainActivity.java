@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    /*private variable declaration*/
+    /*Variables declaration*/
 
     private EditText mFirstNameInput;
     private EditText mLastNameInput;
@@ -28,10 +28,14 @@ public class MainActivity extends AppCompatActivity {
     String ExpCarModel;
     String ExpClientNumber;
 
+    /*OnCreate*/
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        /*Link with layout*/
 
         mFirstNameInput = (EditText) findViewById(R.id.activity_main_first_name_input);
         mLastNameInput = (EditText) findViewById(R.id.activity_main_last_name_input);
@@ -40,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         /*Spinner Configuration*/
+
         mCarSpinner = (Spinner) findViewById(R.id.activity_main_spinner);
         // Create an ArrayAdapter using the string array and a default spinner layout
         final ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.car_spinner, android.R.layout.simple_spinner_item);
@@ -62,8 +67,11 @@ public class MainActivity extends AppCompatActivity {
         });
 
         /*Client number Creation*/
+
         ExpClientNumber="5005";
         /*Send client number to Station Connexion Activity*/
+
+        /*Submit button actions*/
 
         mSubmitButton.setOnClickListener(new View.OnClickListener() {
             @Override

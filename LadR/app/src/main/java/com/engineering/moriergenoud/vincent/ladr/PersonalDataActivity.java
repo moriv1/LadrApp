@@ -7,6 +7,8 @@ import android.widget.TextView;
 
 public class PersonalDataActivity extends AppCompatActivity {
 
+    /*Variables declaration*/
+
     private TextView mDisplayFirstName;
     private TextView mDisplayLastName;
     private TextView mDisplayLicence;
@@ -18,17 +20,22 @@ public class PersonalDataActivity extends AppCompatActivity {
     String TransfertCarModel;
     String TransfertClientNumber;
 
+    /*onCreate void*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_personal_data);
 
+        /*link with Layout*/
+
         mDisplayFirstName = findViewById(R.id.activity_display_firstname_txt);
         mDisplayLastName = findViewById(R.id.activity_display_lastname_txt);
         mDisplayLicence = findViewById(R.id.activity_display_lisence_txt);
         mDisplayCarModel = findViewById(R.id.activity_display_car_model_txt);
         mDisplayClientNumber = findViewById(R.id.activity_display_client_txt);
+
+        /*Variables importation from other activities*/
 
         TransfertFirstName = getIntent().getExtras().getString("FirstName2");
         mDisplayFirstName.setText(TransfertFirstName);
