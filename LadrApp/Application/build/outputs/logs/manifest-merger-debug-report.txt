@@ -1,0 +1,142 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:2:1-39:12
+MERGED from [com.android.support:support-v13:27.0.2] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\d5fad1f0356892f629b42eb080125194\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\c9e0b6f5170e2420178930b86e3a06cb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\6c8796362ed07614603daaedfd67a5c0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\5ebf1423112a6032120e743f8a7cfaed\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\294e81f3cf594fc214b189469db2f1cc\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\6b95632d0d41229d58a044f0a1cb9e0e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\aca187352245505b9931ad47d1eba0ee\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\e715b845a04502d6ceca0e9c7bf30a4a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\a8174a77c35dfda2e0993371178fac37\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\cb0285760470757ef1989715bc8b7d91\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\471b177286aa38772a177ec276e28f73\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\2a7f3b4fc2482125137e920d5d7c1253\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\49831a9e8dc38a3d5fb9c15ccfe93136\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:2:1-39:12
+	package
+		ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:4:5-50
+	android:versionName
+		ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:6:5-30
+		INJECTED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml
+		INJECTED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:5:5-28
+		INJECTED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml
+		INJECTED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml
+uses-feature#android.hardware.bluetooth_le
+ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:8:5-10:35
+	android:required
+		ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:10:9-32
+	android:name
+		ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:9:9-53
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:12:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:13:5-74
+	android:name
+		ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:13:22-71
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:14:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:15:22-78
+application
+ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:17:5-37:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\294e81f3cf594fc214b189469db2f1cc\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\294e81f3cf594fc214b189469db2f1cc\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:19:9-41
+	tools:targetApi
+		ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:21:9-35
+	android:icon
+		ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:18:9-41
+	android:theme
+		ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:20:9-70
+activity#com.example.android.bluetoothlegatt.DeviceScanActivity
+ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:22:9-30:20
+	android:label
+		ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:24:13-45
+	android:name
+		ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:23:13-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:28:27-74
+activity#com.example.android.bluetoothlegatt.DeviceControlActivity
+ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:31:9-59
+	android:name
+		ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:31:19-56
+activity#com.example.android.bluetoothlegatt.SignUpActivity
+ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:32:9-52
+	android:name
+		ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:32:19-49
+activity#com.example.android.bluetoothlegatt.OrderKeyActivity
+ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:33:9-63
+	android:name
+		ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:33:19-51
+service#com.example.android.bluetoothlegatt.BluetoothLeService
+ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:34:9-36:38
+	android:enabled
+		ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:36:13-35
+	android:name
+		ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml:35:13-47
+uses-sdk
+INJECTED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml
+INJECTED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml
+MERGED from [com.android.support:support-v13:27.0.2] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\d5fad1f0356892f629b42eb080125194\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.0.2] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\d5fad1f0356892f629b42eb080125194\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\c9e0b6f5170e2420178930b86e3a06cb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\c9e0b6f5170e2420178930b86e3a06cb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\6c8796362ed07614603daaedfd67a5c0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\6c8796362ed07614603daaedfd67a5c0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\5ebf1423112a6032120e743f8a7cfaed\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\5ebf1423112a6032120e743f8a7cfaed\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\294e81f3cf594fc214b189469db2f1cc\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\294e81f3cf594fc214b189469db2f1cc\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\6b95632d0d41229d58a044f0a1cb9e0e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\6b95632d0d41229d58a044f0a1cb9e0e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\aca187352245505b9931ad47d1eba0ee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\aca187352245505b9931ad47d1eba0ee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\e715b845a04502d6ceca0e9c7bf30a4a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\e715b845a04502d6ceca0e9c7bf30a4a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\a8174a77c35dfda2e0993371178fac37\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\a8174a77c35dfda2e0993371178fac37\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\cb0285760470757ef1989715bc8b7d91\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\cb0285760470757ef1989715bc8b7d91\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\471b177286aa38772a177ec276e28f73\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\471b177286aa38772a177ec276e28f73\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\2a7f3b4fc2482125137e920d5d7c1253\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\2a7f3b4fc2482125137e920d5d7c1253\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\49831a9e8dc38a3d5fb9c15ccfe93136\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Vincent\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\49831a9e8dc38a3d5fb9c15ccfe93136\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml
+INJECTED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml
+		ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml
+		INJECTED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml
+		ADDED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml
+		INJECTED from D:\workspace\LadrApp\Application\src\main\AndroidManifest.xml
